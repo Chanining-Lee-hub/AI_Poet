@@ -1,7 +1,9 @@
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
+
 from langchain_openai import ChatOpenAI
 chat_model = ChatOpenAI()
+
 #subject = "AI"
 #result = chat_model.invoke(subject + "AI에 대한 시를써줘")
 #print(result.content)
